@@ -1,9 +1,8 @@
-import {Container, makeStyles} from "@material-ui/core";
+import {Container, makeStyles, Typography} from "@material-ui/core";
 
 
 const useStyles = makeStyles({
     Contacts: {
-        background: "cornflowerblue",
         marginBottom: "100px",
 
     }
@@ -15,7 +14,8 @@ export function Contacts(){
 
     return(
         <Container width={"75%"} className={classes.Contacts}>
-            "Contacts"
+            <Typography variant={"h2"} align={"center"}>Contacts</Typography>
+
         </Container>
     )
 }

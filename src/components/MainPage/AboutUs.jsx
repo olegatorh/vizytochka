@@ -1,4 +1,4 @@
-import {Container, Grid, makeStyles, Typography} from "@material-ui/core";
+import {Container, makeStyles, Typography} from "@material-ui/core";
 
 
 const useStyles = makeStyles({

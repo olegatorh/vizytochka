@@ -2,7 +2,7 @@ import SimpleSlider from "../Carousel"
 import {Footer} from "../Footer"
 import {AboutUs} from "./AboutUs"
 import {OurAdvantages} from "./OurAdvantages"
-import {Contacts} from "../Contacts";
+import {MapPoint} from "../MapPoint";
 
 
 function MainPage() {
@@ -11,7 +11,7 @@ function MainPage() {
             <SimpleSlider/>
             <AboutUs/>
             <OurAdvantages/>
-            <Contacts/>
+            <MapPoint/>
             <Footer/>
         </>
     )
