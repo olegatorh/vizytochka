@@ -3,12 +3,13 @@ import {CardContent, Container, Grid, makeStyles, Typography} from "@material-ui
 
 const useStyles = makeStyles({
     OurAdvantages: {
-        marginBottom: "100px",
-
-
+        marginBottom: "150px",
     },
     paper: {
         maxWidth: "50px"
+    },
+    Typography: {
+        fontFamily: "Comfortaa"
     }
 });
 
@@ -18,122 +19,64 @@ export function OurAdvantages() {
 
     return (
         <Container width={"75%"} className={classes.OurAdvantages}>
-            <Typography variant={"h2"} align={"center"}>Our Advantages</Typography>
+            <Typography variant={"h4"} align={"left"} className={classes.Typography} style={{marginBottom: 20}}>Наші
+                Переваги</Typography>
             <Grid container
                   direction="row"
                   justify="space-around"
                   alignItems="center">
                 <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
+                    <Typography gutterBottom className={classes.Typography}>
+                        Вже давно відомо
                     </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
+                    <Typography variant="body2" component="p" className={classes.Typography}>
+                        зміст буде заважати
                         <br/>
-                        {'"a benevolent smile"'}
+                        {'"зосередитись людині"'}
                     </Typography>
                 </CardContent>
                 <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
+                    <Typography gutterBottom className={classes.Typography}>
+                        Вже давно відомо
                     </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
+                    <Typography variant="body2" component="p" className={classes.Typography}>
+                        зміст буде заважати
                         <br/>
-                        {'"a benevolent smile"'}
+                        {'"зосередитись людині"'}
                     </Typography>
                 </CardContent>
                 <CardContent>
-                <Typography gutterBottom>
-                    Word of the Day
-                </Typography>
-                <Typography variant="body2" component="p">
-                    well meaning and kindly.
-                    <br/>
-                    {'"a benevolent smile"'}
-                </Typography>
-            </CardContent>
-                <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
+                    <Typography gutterBottom className={classes.Typography}>
+                        Вже давно відомо
                     </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
+                    <Typography variant="body2" component="p" className={classes.Typography}>
+                        зміст буде заважати
                         <br/>
-                        {'"a benevolent smile"'}
+                        {'"зосередитись людині"'}
                     </Typography>
                 </CardContent>
                 <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
+                    <Typography gutterBottom className={classes.Typography}>
+                        Вже давно відомо
                     </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
+                    <Typography variant="body2" component="p" className={classes.Typography}>
+                        зміст буде заважати
                         <br/>
-                        {'"a benevolent smile"'}
+                        {'"зосередитись людині"'}
                     </Typography>
                 </CardContent>
                 <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
+                    <Typography gutterBottom className={classes.Typography}>
+                        Вже давно відомо
                     </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
+                    <Typography variant="body2" component="p" className={classes.Typography}>
+                        зміст буде заважати
                         <br/>
-                        {'"a benevolent smile"'}
+                        {'"зосередитись людині"'}
                     </Typography>
                 </CardContent>
-                <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
-                    </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
-                        <br/>
-                        {'"a benevolent smile"'}
-                    </Typography>
-                </CardContent>
-                <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
-                    </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
-                        <br/>
-                        {'"a benevolent smile"'}
-                    </Typography>
-                </CardContent>
-                <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
-                    </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
-                        <br/>
-                        {'"a benevolent smile"'}
-                    </Typography>
-                </CardContent>
-                <CardContent>
-                    <Typography gutterBottom>
-                        Word of the Day
-                    </Typography>
-                    <Typography variant="body2" component="p">
-                        well meaning and kindly.
-                        <br/>
-                        {'"a benevolent smile"'}
-                    </Typography>
-                </CardContent><CardContent>
-                <Typography gutterBottom>
-                    Word of the Day
-                </Typography>
-                <Typography variant="body2" component="p">
-                    well meaning and kindly.
-                    <br/>
-                    {'"a benevolent smile"'}
-                </Typography>
-            </CardContent>
-
             </Grid>
+            <hr style={{width:"75%"}}/>
         </Container>
     )
 }

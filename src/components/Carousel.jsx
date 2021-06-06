@@ -10,11 +10,11 @@ import slider3 from "../assets/images/slide3.jpg"
 
 const useStyles = makeStyles({
     Carousel: {
-        marginBottom: "60px",
-        margin: "0px",
-        padding: "0px",
+        marginBottom: "150px",
         maxWidth: "100%",
-        width: "100%"
+        width: "1920px",
+        padding: 0,
+
     }
 });
 
@@ -31,9 +31,9 @@ export default function SimpleSlider() {
         slidesToScroll: 1
     }
     return (
-        <Container  className={classes.Carousel}>
-            <Slider {...settings}>
-                <div>
+        <Container  className={classes.Carousel} >
+            <Slider {...settings} >
+                <div >
                     <img src={slider1} style={{maxHeight: "600px", maxWidth: "1920px"}} alt={"food"}/>
                 </div>
                 <div>
