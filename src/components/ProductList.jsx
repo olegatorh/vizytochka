@@ -24,24 +24,6 @@ export default function ProductList() {
                 <AnotherProductCard/>
                 <AnotherProductCard/>
                 <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
-                <AnotherProductCard/>
             </Grid>
             <hr />
         </Container>

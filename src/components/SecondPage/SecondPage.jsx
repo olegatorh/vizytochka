@@ -1,15 +1,14 @@
 import {Footer} from "../Footer"
-import {ProductList} from "./ProductList"
-import {AboutProduct} from "./AboutProduct"
+import {Container} from "@material-ui/core";
+import {ProductList} from "./ProductList";
 
 
 function SecondPage() {
     return (
-        <>
-            <AboutProduct/>
+        <Container maxWidth={"false"} style={{padding: 0}}>
             <ProductList/>
             <Footer/>
-        </>
+        </Container>
 
     )
 }

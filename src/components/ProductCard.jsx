@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function ProductCard() {
+function ProductCard() {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
 

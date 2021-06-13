@@ -5,12 +5,11 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import mozarella from "../assets/images/slide3.jpg"
-import CardDialogs from "./Dialog";
+import mozarella from "../../assets/images/slide3.jpg"
 import {Link} from "react-router-dom";
-import SecondPage from "./SecondPage/SecondPage";
+import Button from "@material-ui/core/Button";
+import CardDialogs from "../Dialog";
 
 
 const useStyles = makeStyles({
@@ -28,7 +27,7 @@ const useStyles = makeStyles({
     }
 });
 
-export default function AnotherProductCard() {
+export default function ProductCard() {
     const classes = useStyles();
 
     return (
@@ -49,7 +48,9 @@ export default function AnotherProductCard() {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                    <Link to="/SecondPage" style={{"textDecoration": "none", "color": "rgb(35, 31, 32)"}}>Читати більше</Link>
+                <Button size="small" color="primary" >
+                    <CardDialogs/>
+                </Button>
             </CardActions>
         </Card>
     );
